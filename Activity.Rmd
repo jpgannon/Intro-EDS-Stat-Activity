@@ -1,0 +1,76 @@
+---
+title: "Stats Activity Intro EDS"
+output: html_document
+date: "2022-09-29"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Load the tidyverse package using the library() function.
+
+```{r}
+
+```
+
+Use read_csv() to load the NYC_airquality.csv file. Call it airqual.
+
+These data are a slightly edited version of the dataset linked below. You can read about the data there. 
+https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/airquality.html
+
+```{r}
+
+```
+
+Use summarize() to show the mean and standard deviation of Ozone and Solar.R (careful with NAs)
+
+```{r}
+
+```
+
+Use group_by() and summarize() to output the mean Ozone, Solar.R, and Wind PER MONTH. Careful with NAs. None of the results should be an NA.
+
+```{r}
+
+```
+
+Use ggplot to make a histogram of Ozone concentrations.
+
+Describe the ozone distribution. Do you think it is normal? Is it skewed?
+Replace this text with your answer.
+
+```{r}
+
+```
+
+Show a histogram of wind. Describe the distribution. Is it normal? Is it skewed?
+Replace this text with your answer.
+
+```{r}
+
+```
+
+Make a good plot of Ozone through time. Ozone is measured in ppb.
+
+When was the worst air quality in NYC in 1973? 
+Replace this text with your answer.
+
+Use the internet to look up the meaning of these Ozone levels, are they bad? 
+Replace this text with your answer.
+
+```{r}
+
+```
+
+Use ggplot to explore the relationships between Ozone and Solar Radiation, Wind, Temp, Month, and Day.
+
+Which of these has the best relationship with Ozone? Show your plot. 
+
+Search the internet for an answer: Why is Ozone related to the parameter you chose?
+Replace this text with your answer
+
+```{r}
+
+```
+
